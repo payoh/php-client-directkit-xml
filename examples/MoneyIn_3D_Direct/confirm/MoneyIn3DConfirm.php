@@ -1,13 +1,13 @@
 <?php
-namespace LemonWay\Examples;
-use LemonWay\Models\Operation;
-use LemonWay\Models\Wallet;
+namespace Payoh\Examples;
+use Payoh\Models\Operation;
+use Payoh\Models\Wallet;
 
 require_once '../../ExamplesBootstrap.php';
 $api = ExamplesBootstrap::getApiInstance();
 
 /**
- *		Case : This follows the MoneyIn3DInit case : your customer has returned to your website or you have received a POST notification from Lemon Way.
+ *		Case : This follows the MoneyIn3DInit case : your customer has returned to your website or you have received a POST notification from Payoh.
  *              You now need to find out how the payment went.
  *		Steps :
  *          - GetMoneyInTransDetails

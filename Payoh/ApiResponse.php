@@ -1,14 +1,14 @@
 <?php
-namespace LemonWay;
-use LemonWay\Models\Acs;
-use LemonWay\Models\Operation;
-use LemonWay\Models\Wallet;
-use LemonWay\Models\KycDoc;
-use LemonWay\Models\Iban;
-use LemonWay\Models\SddMandate;
-use LemonWay\Models\Card;
-use LemonWay\Models\Vcc;
-use LemonWay\Models\IDeal;
+namespace Payoh;
+use Payoh\Models\Acs;
+use Payoh\Models\Operation;
+use Payoh\Models\Wallet;
+use Payoh\Models\KycDoc;
+use Payoh\Models\Iban;
+use Payoh\Models\SddMandate;
+use Payoh\Models\Card;
+use Payoh\Models\Vcc;
+use Payoh\Models\IDeal;
 
 
 class ApiResponse{

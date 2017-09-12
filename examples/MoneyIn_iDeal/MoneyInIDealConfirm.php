@@ -1,7 +1,7 @@
 <?php
-namespace LemonWay\Examples;
-use LemonWay\LemonWayAPI;
-use LemonWay\Models\Operation;
+namespace Payoh\Examples;
+use Payoh\PayohAPI;
+use Payoh\Models\Operation;
 
 require_once '../ExamplesBootstrap.php';
 $api = ExamplesBootstrap::getApiInstance();

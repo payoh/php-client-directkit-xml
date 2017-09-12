@@ -1,8 +1,8 @@
 <?php
-namespace LemonWay\Examples;
-use LemonWay\Models\Operation;
-use LemonWay\Models\Wallet;
-use LemonWay\Models\Card;
+namespace Payoh\Examples;
+use Payoh\Models\Operation;
+use Payoh\Models\Wallet;
+use Payoh\Models\Card;
 
 require_once 'ExamplesBootstrap.php';
 $api = ExamplesBootstrap::getApiInstance();
@@ -15,7 +15,7 @@ $api = ExamplesBootstrap::getApiInstance();
  *          - CreateVCC : Create a Virtual Credit Card from the Wallet
  *
  *       Note :
- *          - Lemon Way will automatically debit its fees from merchant wallet
+ *          - Payoh will automatically debit its fees from merchant wallet
  */
 
 $walletID = ExamplesDatas::getRandomId();

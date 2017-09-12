@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class Card{
 
 	const TYPE_CB = '0';
@@ -7,7 +7,7 @@ class Card{
 	const TYPE_MASTERCARD = '2';
 
 	/**
-     * ID as defined by Lemon Way
+     * ID as defined by Payoh
      * @var string
      */
     public $ID;

@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class Acs {
     /**
      * actionUrl Redirect URL for the CLIENT on the 3D Secure web site

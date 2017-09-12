@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class Wallet
 {
 
@@ -28,7 +28,7 @@ class Wallet
     public $ID;
 
     /**
-     * LWID number ID as defined by Lemon Way
+     * LWID number ID as defined by Payoh
      * @var string
      */
     public $LWID;

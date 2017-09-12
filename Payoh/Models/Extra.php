@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class Extra {
     /**
      * IS3DS indicates if payment was 3D Secure

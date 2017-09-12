@@ -1,13 +1,13 @@
 <?php
-namespace LemonWay;
+namespace Payoh;
 
-use LemonWay\Lib\LwException;
+use Payoh\Lib\LwException;
 
-class LemonWayAPI
+class PayohAPI
 {
     /**
      * Configuration instance
-     * @var \LemonWay\Lib\Config
+     * @var \Payoh\Lib\Config
      */
     public $config;
 
@@ -18,7 +18,7 @@ class LemonWayAPI
     private $printInputAndOutputXml = false;
 
     /**
-     * LemonWayKit constructor.
+     * PayohKit constructor.
      */
     public function __construct($directKitUrl = '', $webKitUrl = '',  $login = '', $password = '', $lang = 'en', $debug = false, $sslVerification = true)
     {
@@ -910,13 +910,13 @@ class LemonWayAPI
                     throw new LwException("Bad Request : The server cannot or will not process the request due to something that is perceived to be a client error", LwException::BAD_REQUEST);
                     break;
                 case 403:
-                    throw new LwException("IP is not allowed to access Lemon Way's API, please contact support@lemonway.fr", LwException::BAD_IP);
+                    throw new LwException("IP is not allowed to access Payoh's API, please contact support@payoh.me", LwException::BAD_IP);
                     break;
                 case 404:
-                    throw new LwException("Check that the access URLs are correct. If yes, please contact support@lemonway.fr", LwException::NOT_FOUND);
+                    throw new LwException("Check that the access URLs are correct. If yes, please contact support@payoh.me", LwException::NOT_FOUND);
                     break;
                 case 500:
-                    throw new LwException("Lemon Way internal server error, please contact support@lemonway.fr", LwException::INTERNAL_ERROR);
+                    throw new LwException("Payoh internal server error, please contact support@payoh.me", LwException::INTERNAL_ERROR);
                     break;
                 default:
                     break;

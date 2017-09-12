@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Lib;
+namespace Payoh\Lib;
 
 
 class LwException extends \Exception

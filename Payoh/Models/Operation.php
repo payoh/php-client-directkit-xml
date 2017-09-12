@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class Operation {
 
     const STATUS_WAITING_FINALISATION = '0';

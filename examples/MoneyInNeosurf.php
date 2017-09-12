@@ -1,11 +1,11 @@
 <?php
-namespace LemonWay\Examples;
-use LemonWay\Models\Wallet;
+namespace Payoh\Examples;
+use Payoh\Models\Wallet;
 
 require_once 'ExamplesBootstrap.php';
 $api = ExamplesBootstrap::getApiInstance();
 
-$ticketNeoSurf = '2651261983'; //PROVIDED BY LEMONWAY API DOC
+$ticketNeoSurf = '2651261983'; //PROVIDED BY PAYOH API DOC
 
 /**
  *      Case : Money-in Neosurf
@@ -15,7 +15,7 @@ $ticketNeoSurf = '2651261983'; //PROVIDED BY LEMONWAY API DOC
  *          - GetWalletTransHistory : get transactions history of the wallet
  *
  *       Note :
- *          - Lemon Way will automatically debit its fees from merchant wallet
+ *          - Payoh will automatically debit its fees from merchant wallet
  */
 
 $walletID = ExamplesDatas::getRandomId();

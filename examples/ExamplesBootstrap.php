@@ -1,6 +1,6 @@
 <?php
-namespace LemonWay\Examples;
-use LemonWay\LemonWayAPI;
+namespace Payoh\Examples;
+use Payoh\PayohAPI;
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once 'ExamplesDatas.php';
 class ExamplesBootstrap{
@@ -31,7 +31,7 @@ class ExamplesBootstrap{
     const SSLVERIFICATION = false; // true if in production
 
     /**
-     * CSS_URL Used to set API CSS url for LemonWayAPI::printCardForm
+     * CSS_URL Used to set API CSS url for PayohAPI::printCardForm
      * @var string
      */
     const CSS_URL = 'https://www.lemonway.fr/mercanet_lw.css';
@@ -61,18 +61,18 @@ class ExamplesBootstrap{
     const DEBUG = false;
 
     /**
-     * api Lemon Way API
-     * @var LemonWayAPI
+     * api Payoh API
+     * @var PayohAPI
      */
     public static $api;
 
     /**
      * Build the API if needed
-     * @return LemonWayAPI
+     * @return PayohAPI
      */
     public static function getApiInstance(){
         if (self::$api == null) {
-            self::$api = new LemonWayAPI();
+            self::$api = new PayohAPI();
 
             self::$api->config->dkUrl = self::DIRECTKIT_URL;
             self::$api->config->wkUrl = self::WEBKIT_URL;

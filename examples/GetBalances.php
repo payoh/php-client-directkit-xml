@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Examples;
+namespace Payoh\Examples;
 
 require_once 'ExamplesBootstrap.php';
 $api = ExamplesBootstrap::getApiInstance();

@@ -1,9 +1,9 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class Iban{
 
 	/**
-     * ID as defined by Lemon Way
+     * ID as defined by Payoh
      * @var string
      */
     public $ID;

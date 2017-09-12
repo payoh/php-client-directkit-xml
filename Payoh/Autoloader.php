@@ -1,6 +1,6 @@
 <?php
 spl_autoload_register(function ($class) {
-    $prefix = 'LemonWay\\';
+    $prefix = 'Payoh\\';
     $base_dir = __DIR__ . '/';
 
     $len = strlen($prefix);

@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class SddMandate{
 
 	const RECURRING = '1';
@@ -11,7 +11,7 @@ class SddMandate{
 
 
 	/**
-     * ID as defined by Lemon Way
+     * ID as defined by Payoh
      * @var string
      */
     public $ID;

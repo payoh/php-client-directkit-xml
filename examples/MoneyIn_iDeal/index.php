@@ -1,6 +1,6 @@
 <?php
-namespace LemonWay\Examples\MoneyInIDeal;
-use LemonWay\Examples\ExamplesDatas;
+namespace Payoh\Examples\MoneyInIDeal;
+use Payoh\Examples\ExamplesDatas;
 
 require_once '../ExamplesDatas.php';
 $token = ExamplesDatas::getRandomId();

@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Lib;
+namespace Payoh\Lib;
 /**
  * API Config settings
  */

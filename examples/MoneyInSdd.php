@@ -1,6 +1,6 @@
 <?php
-namespace LemonWay\Examples;
-use LemonWay\Models\Wallet;
+namespace Payoh\Examples;
+use Payoh\Models\Wallet;
 
 require_once 'ExamplesBootstrap.php';
 $api = ExamplesBootstrap::getApiInstance();
@@ -11,7 +11,7 @@ $api = ExamplesBootstrap::getApiInstance();
  *          - MoneyInSddInit : debiting 15 EUR from SDD Mandate, and automatically sending 1 EUR to your wallet (merchant).
  *
  *       Note :
- *          - Lemon Way will automatically debit its fees from merchant wallet
+ *          - Payoh will automatically debit its fees from merchant wallet
  */
 
 $walletID = $_GET['walletID'];

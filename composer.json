@@ -1,8 +1,8 @@
 {
   "name": "lemonway/php-sdk",
-  "description": "PHP SDK for Lemon Way API",
+  "description": "PHP SDK for Payoh API",
   "type": "library",
-  "keywords": ["Lemon Way","LemonWay","wallet","payment","marketplace"],
+  "keywords": ["Payoh","Payoh","wallet","payment","marketplace"],
   "homepage": "https://github.com/lemonwaysas/php-client-directkit-xml",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -12,6 +12,6 @@
     "ext-openssl": "*"
   },
   "autoload": {
-    "psr-4": { "LemonWay\\": "LemonWay/" }
+    "psr-4": { "Payoh\\": "Payoh/" }
   }
 }

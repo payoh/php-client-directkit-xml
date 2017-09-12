@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class IDeal{
     const ISSUER_RABOBANK = '21';
     const ISSUER_ABN_AMRO = '31';

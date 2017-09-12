@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Examples;
+namespace Payoh\Examples;
 
 class ExamplesDatas{
 
@@ -7,7 +7,7 @@ class ExamplesDatas{
      * FILE_UPLOAD Dummy file to upload
      * @var string
      */
-    const FILE_UPLOAD          = '../images/lemonway_logo.jpeg';
+    const FILE_UPLOAD          = '../images/payoh_logo.jpeg';
 
     /**
      * CARD_SUCCESS_WITHOUT_3D Card number for a valid test without 3D Secure

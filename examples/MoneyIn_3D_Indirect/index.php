@@ -2,7 +2,7 @@
 
 //Money-in by card with 3D Secure, using Atos/BNP card form in indirect mode
 if (isset($_POST) && sizeof($_POST) > 0){
-    //notification from Lemon Way's server. Will not work if you're testing using a local return URL
+    //notification from Payoh's server. Will not work if you're testing using a local return URL
     foreach ($_POST as $key => $value) {
         // Write to server error log for example purpose
         error_log('<br/>POST '.$key.' : '.$value.'');

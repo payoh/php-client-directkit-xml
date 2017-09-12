@@ -1,7 +1,7 @@
 <?php
-namespace LemonWay\Examples;
-use LemonWay\Models\Card;
-use LemonWay\Models\Wallet;
+namespace Payoh\Examples;
+use Payoh\Models\Card;
+use Payoh\Models\Wallet;
 
 require_once 'ExamplesBootstrap.php';
 $api = ExamplesBootstrap::getApiInstance();

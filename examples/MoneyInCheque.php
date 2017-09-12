@@ -1,6 +1,6 @@
 <?php
-namespace LemonWay\Examples;
-use LemonWay\Models\Wallet;
+namespace Payoh\Examples;
+use Payoh\Models\Wallet;
 
 require_once 'ExamplesBootstrap.php';
 $api = ExamplesBootstrap::getApiInstance();
@@ -13,7 +13,7 @@ $api = ExamplesBootstrap::getApiInstance();
  *          - GetMoneyInChequeDetails : search history
  *
  *       Note :
- *          - Lemon Way will automatically debit its fees from merchant wallet
+ *          - Payoh will automatically debit its fees from merchant wallet
  */
 
 $walletID = ExamplesDatas::getRandomId();

@@ -1,5 +1,5 @@
 <?php
-namespace LemonWay\Models;
+namespace Payoh\Models;
 class KycDoc {
 
 	const STATUS_RECEIVED = '1';
@@ -31,7 +31,7 @@ class KycDoc {
 	const SIGNING_ERROR = 'error';
 
 	/**
-     * ID as defined by Lemon Way
+     * ID as defined by Payoh
      * @var string
      */
     public $ID;
