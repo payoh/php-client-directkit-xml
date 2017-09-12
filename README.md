@@ -57,7 +57,7 @@ But if you're not using PSR-4 or Composer, the installation is as easy as downlo
 Contacts
 -------------------------------------------------
 Report bugs or suggest features using
-[issue tracker on GitHub](https://github.com/lemonway/php-sdk).
+[issue tracker on GitHub](https://github.com/payoh/php-sdk).
 
 
 Account creation
